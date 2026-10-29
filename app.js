@@ -1,13 +1,6 @@
 import { getStudentsAPI, addStudentsAPI } from './api.js';
 
 let localStudents = [];
-/*
-const studentForm = document.querySelector('#studentForm');
-const studentTableBody = document.querySelector('#studentTableBody');
-const firstNameInput = document.querySelector('#firstName');
-const lastNameInput = document.querySelector('#lastName');
-const emailInput = document.querySelector('#email');
-*/
 
 const studentForm = document.getElementById('studentForm');
 const studentTableBody = document.getElementById('studentTableBody');
